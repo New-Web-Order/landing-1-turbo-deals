@@ -1,0 +1,24 @@
+.root {
+    @apply inline-flex cursor-pointer items-center justify-center text-center font-semibold rounded-md h-11 text-[0.938rem] tracking-[0.047rem] leading-[1.219rem];
+  }
+
+ 
+
+/********** SURFACE **********/
+.root[data-shape="surface"] {
+    @apply border border-[#DAD9D6] text-[#63635E] bg-transparent px-5;
+  }
+  
+  .root[data-shape="surface"]:hover {
+    /* @apply bg-[#083344e6]; */
+  }
+  
+  /********** FILLED **********/
+  
+  .root[data-shape="filled"] {
+    @apply bg-primary-300 text-[#F9F9F8] px-4;
+  }
+  
+  .root[data-shape="filled"]:hover {
+    /* @apply bg-[#0E7490]; */
+  }

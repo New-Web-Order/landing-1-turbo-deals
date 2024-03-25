@@ -1,8 +1,8 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a preassembled template built in [next.js](https://nextjs.org/)  by [newweborder](https://www.newweborder.co/)
 
-## Getting Started
+## Turbo Deals Desktop & Mobile Responsive Landing Page
 
-First, run the development server:
+Begin by starting the development server:
 
 ```bash
 npm run dev
@@ -14,23 +14,16 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to see what's displayed.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+This template uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load a custom Google Font.
 
-## Learn More
+More templates like this are available at [https://github.com/New-Web-Order](https://github.com/New-Web-Order)
 
-To learn more about Next.js, take a look at the following resources:
+## UI KITS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Visit these links and explore our selection of UI kits ! [Gumroad](https://ui8.net/users/new-web-order) - [Newweborder.Online](https://www.newweborder.online/) 
+## Custom Orders
+For custom design and development orders visit [newweborder](https://www.newweborder.co/) Explore our website and reach out to us for any inquiries.

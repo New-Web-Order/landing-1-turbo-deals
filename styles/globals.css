@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.navbarbutton {
+  border: none !important;
+}
+
+.Banner{
+  background: linear-gradient(180deg, #53B9AB 0%, #25534D 100%) !important;
+  border-top-left-radius: 24px ;
+  border-top-right-radius: 24px ;
+
+}
+.download{
+  background: linear-gradient(180deg, #53B9AB 0%, #25534D 100%) !important;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .Banner{
+    border-top-left-radius: 56px ;
+    border-top-right-radius: 56px ;
+  }
+  }

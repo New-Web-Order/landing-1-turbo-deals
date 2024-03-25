@@ -1,0 +1,140 @@
+{
+    "navbar": {
+        "links": [
+          { "name": "Home", "href": "#/" },
+          { "name": "Pricing", "href": "#/" },
+          { "name": "About", "href": "#/" },
+          { "name": "Contact", "href": "#/" }
+        ],
+        "buttonText": "Get Started",
+        "logoText": "Turbo Deals"
+      },
+
+      "heroSection": {
+        "heading": "Find Your Dream Car Today",
+        "subheading": "At Turbo Deals, we make car buying an experience, not a hassle. We understand that your time is valuable, and we strive to provide top-notch customer service to make your car buying journey smooth and enjoyable.",
+        "buttonText": "Get Started"
+      },
+
+      "BestServices": {
+        "heading": "BEST SERVICES",
+        "subheading": "Turbo Deals Following 3 Working Steps",
+        "services": [
+          {
+            "title": "Maintenance",
+            "description": "Our expert technicians ensure your car stays in peak condition, providing top-notch maintenance services."
+          },
+          {
+            "title": "Customization",
+            "description": "Tailor your car to reflect your unique style and preferences with our premium customization options."
+          },
+          {
+            "title": "Financing",
+            "description": "Unlock the door to your dream car with flexible financing solutions tailored to your needs."
+          }
+        ]
+      },
+
+      "priceCardsGrid":{
+        "heading": "BEST SERVICES",
+        "subheading": "Discover The Perfect Ride",
+
+        "pricingOptions":[
+
+        {
+          "title": "CLARTY PLUG-IN HYBRID",
+          "price": "$30,000",
+          "lowPrice": "$3000 /",
+          "highPrice": "31000",
+          "buttonText":"Get In Touch"
+        },
+        {
+          "title": "CLARTY PLUG-IN HYBRID",
+          "price": "$30,000",
+          "lowPrice": "$3000 / ",
+          "highPrice": "31000",
+          "buttonText":"Get In Touch"
+        },
+        {
+          "title": "CLARTY PLUG-IN HYBRID",
+          "price": "$30,000",
+          "lowPrice": "$3000 / ",
+          "highPrice": "31000",
+          "buttonText":"Get In Touch"
+        },
+        {
+          "title": "CLARTY PLUG-IN HYBRID",
+          "price": "$30,000",
+          "lowPrice": "$3000 / ",
+          "highPrice": "31000",
+          "buttonText":"Get In Touch"
+        },
+        {
+          "title": "CLARTY PLUG-IN HYBRID",
+          "price": "$30,000",
+          "lowPrice": "$3000 / ",
+          "highPrice": "31000",
+          "buttonText":"Get In Touch"
+        },
+        {
+          "title": "CLARTY PLUG-IN HYBRID",
+          "price": "$30,000",
+          "lowPrice": "$3000 / ",
+          "highPrice": "31000",
+          "buttonText":"Get In Touch"
+        }
+      ]
+      },
+      "BestDeals": {
+        "heading": "BEST SERVICES",
+        "subheading": "Feel The Best Experience With Our Turbo Deals",
+        "deals": [
+          {
+            "title": "DEALS FOR EVERY BUDGET ",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit nunc commodo eleifend est quisque fusce."
+          },
+          {
+            "title": "BESR PRICE GUARANTEED",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit nunc commodo eleifend est quisque fusce."
+          },
+          {
+            "title": "SUPPORT 24/7",
+            "description": "Lorem ipsum dolor sit amet consectetur. Sit nunc commodo eleifend est quisque fusce."
+          }
+        ]
+      },
+      "Download": {
+        "heading": "DOWNLOAD THE FREE TURBO DEALS APP",
+        "subheading": "Lorem ipsum dolor sit amet consectetur."
+      },
+      "Footer": {
+        "logoText": "Turbo Deals",
+        "linktext":"Link One",
+
+        "address": [
+          {
+            "heading": "Address: ",
+            "subheading": "Level 1, 12 Sample St, Sydney NSW 2000"
+          }
+
+        ],
+          "contact": [
+            { "heading": "Contact:" },
+            { "subheading": "+44 736-085-6434" },
+            { "subheading": "contact@newweborder.co", "href": "https://www.newweborder.co/"}
+
+
+          ],
+          "SocialMediaLinks": [
+            {"name": "instagram", "href": "https://www.instagram.com/viayze"},
+            {"name": "twitter", "href": "https://twitter.com/viayze"},
+            {"name": "facebook", "href": "https://www.newweborder.co/"},
+            {"name": "linkedin", "href": "https://www.newweborder.co/"},
+            {"name": "youtube", "href": "https://www.newweborder.co/"}
+          ]
+
+        
+      }
+
+
+}
