@@ -110,6 +110,12 @@
       "Footer": {
         "logoText": "Turbo Deals",
         "linktext":"Link One",
+        "rights":"© 2023 newweborder. All rights reserved.",
+        "privacy":"Privacy Policy",
+        "terms":"Terms of Service",
+
+
+
 
         "address": [
           {
@@ -132,6 +138,7 @@
             {"name": "linkedin", "href": "https://www.newweborder.co/"},
             {"name": "youtube", "href": "https://www.newweborder.co/"}
           ]
+
 
         
       }

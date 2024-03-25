@@ -55,7 +55,7 @@ const Navbar = () => {
                       <a key={item.name} href={item.href}>
                         <p
                           className={classNames(
-                            "px-4 text-[15px] font-semibold leading-[1.219rem] font-kaytwo ",
+                            "px-4 text-[15px] font-semibold leading-[1.219rem]  ",
                             item.name
                               ? "text-bg-200"
                               : "text-[#22D3EE] underline",
@@ -98,7 +98,7 @@ const Navbar = () => {
                     as="a"
                     href={item.href}
                     className={classNames(
-                      item.name ? "text-bg-200" :
+                      item.name ? "text-bg-200" : "text-primary-300",
                       " p-3 px-3 py-2 text-sm font-medium tracking-[0.00438rem]",
                     )}
                     aria-current={item.name ? "page" : undefined}

@@ -15,9 +15,9 @@ function classNames(...classes: string[]) {
 const Footer = () => {
   const router = useRouter();
   return (
-    <div className='w-full flex justify-center py-9 px-3.5 lg:px-6 2xl:px-0 '>
+    <div className='w-full flex justify-center py-9 px-3.5 lg:px-6 2xl:px-0 border-t border-bg-1000 '>
       <div className='w-full max-w-screen-xl'>
-      <div className='flex flex-col w-full'>
+      <div className='flex flex-col w-full gap-6'>
         <div className='flex justify-between w-full flex-col lg:flex-row items-center gap-10'>
           <div className='flex flex-col items-center lg:items-start gap-6 max-w-[16.375rem]'>
           <div
@@ -100,7 +100,13 @@ const Footer = () => {
           </div>
 
         </div>
-        <div></div>
+        <div className='flex flex-col items-center w-full border-t border-bg-1000 lg:justify-between py-3 lg:flex-row gap-3 '>
+              <p className='font-normal text-sm text-bg-200'>{data.Footer.rights}</p>
+              <div className='flex gap-6'>
+              <p className='font-normal text-sm text-bg-200'>{data.Footer.privacy}</p>
+              <p className='font-normal text-sm text-bg-200'>{data.Footer.terms}</p>
+              </div>
+        </div>
       </div>
       </div>
     </div>

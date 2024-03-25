@@ -22,6 +22,7 @@ const config: Config = {
       fontFamily: {
         sans: ['var(--font-k2d)'],
       },
+      
 
     },
   },
