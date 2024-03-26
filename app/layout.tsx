@@ -17,7 +17,10 @@ const k2d = K2D({
 
 const meta = {
   title: "Turbo Deals",
-  description:"Turbo deals is a car dealership website",
+  description: "Turbo deals is a car dealership website",
+  icons: {
+    icon: '/icon.png',
+  },
 };
 
 export const metadata = {
@@ -28,12 +31,7 @@ export const metadata = {
 const RootLayout = async ({ children }: PropsWithChildren) => {
   return (
  <html lang="en" className={`${k2d.variable}`}>
-<Head>
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.ico" />
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon.ico" />
-  <link rel="manifest" href="/site.webmanifest" />
-</Head>
+
       <body>
         <Navbar />
         <main>

@@ -37,7 +37,7 @@ const WelcomeBanner = () => {
 
         <Image src={BannerImage}
         alt='banner image'
-        className='hidden lg:block max-w-[550px] xl:max-w-[650px] 2xl:w-[100%]'
+        className='hidden lg:flex flex-1 max-w-[550px] xl:max-w-[650px] 2xl:w-[100%]'
         />
 
     </div>

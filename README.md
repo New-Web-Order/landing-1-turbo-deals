@@ -24,6 +24,7 @@ More templates like this are available at [https://github.com/New-Web-Order](htt
 
 ## UI KITS
 
-Visit these links and explore our selection of UI kits ! [Gumroad](https://ui8.net/users/new-web-order) - [Newweborder.Online](https://www.newweborder.online/) 
+Visit these links and explore our selection of UI kits available  on: [UI8]( https://ui8.net/users/new-web-order) and [Gumroad](https://www.newweborder.online/)
+
 ## Custom Orders
 For custom design and development orders visit [newweborder](https://www.newweborder.co/) Explore our website and reach out to us for any inquiries.
