@@ -10,8 +10,8 @@ import AppleSvg from '@/public/assets/icons/apple.svg'
 const index = () => {
   return (
     <div className='w-full max-w-screen-xl lg:py-16 '>
-        <div className=' download flex w-full 2xl:rounded-xl items-center flex-col-reverse gap-11 lg:flex-row lg:gap-12 py-16 lg:py-0 lg:min-h-[30rem] lg:px-16'>
-        <div className='flex w-full items-start lg:w-fit gap-4 flex-col px-3.5 lg:max-w-[27rem]'>
+        <div className=' download flex w-full 2xl:rounded-xl items-center flex-col-reverse gap-11 lg:flex-row justify-between lg:gap-12 py-16 lg:py-0 lg:min-h-[30rem] lg:px-16'>
+        <div className='flex flex-1 w-full items-start lg:w-fit gap-4 flex-col px-3.5 lg:max-w-[27rem]'>
             <h1 className='font-bold text-[1.875rem] lg:text-4xl text-bg-1200 text-left'>{data.Download.heading}</h1>
             <p className='font-medium text-base text-bg-1000'>{data.Download.subheading}</p>
             <div className='flex flex-col md:flex-row w-full gap-3 lg:w-fit'>
@@ -41,10 +41,10 @@ const index = () => {
 
             </div>
         </div>
-        <div className='flex w-fit items-center'>
+        <div className='flex w-fit items-center flex-1 '>
         <Image src={DownloadImage}
         alt='banner image'
-        className=' w-full max-w-[32rem] lg:max-w-[44.563rem]'
+        className=' w-[100%] max-w-[25rem] lg:max-w-[100%]'
         />
         </div>
         </div>

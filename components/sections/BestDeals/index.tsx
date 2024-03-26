@@ -12,7 +12,7 @@ const BestDeals = () => {
         <div className='flex flex-1 items-center justify-center w-full'>
         <Image src={BestDealsImage}
         alt='best-deals-car-image'
-        className='w-full max-w-[25rem] lg:w-auto lg:max-w-[32rem] xl:max-w-[38.661rem]'
+        className='max-w-[25rem] w-[100%] lg:max-w-[38.625rem] 2xl:max-w-[700px]'
         />
         </div>
         <div className='flex flex-1 flex-col gap-10 items-start w-full lg:max-w-[26.313rem]'>

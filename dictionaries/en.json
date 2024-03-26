@@ -38,6 +38,7 @@
       "priceCardsGrid":{
         "heading": "BEST SERVICES",
         "subheading": "Discover The Perfect Ride",
+        "buttons": ["Honda", "Toyota", "Vego", "KIA", "BMW", "Mercedes"],
 
         "pricingOptions":[
 
@@ -109,7 +110,6 @@
       },
       "Footer": {
         "logoText": "Turbo Deals",
-        "linktext":"Link One",
         "rights":"© 2023 newweborder. All rights reserved.",
         "privacy":"Privacy Policy",
         "terms":"Terms of Service",
@@ -132,11 +132,17 @@
 
           ],
           "SocialMediaLinks": [
-            {"name": "instagram", "href": "https://www.instagram.com/viayze"},
-            {"name": "twitter", "href": "https://twitter.com/viayze"},
-            {"name": "facebook", "href": "https://www.newweborder.co/"},
-            {"name": "linkedin", "href": "https://www.newweborder.co/"},
+            {"name": "instagram", "href": "https://www.instagram.com/newweborderltd/?igshid=NTc4MTIwNjQ2YQ%3D%3D"},
+            {"name": "twitter", "href": "https://www.facebook.com/NewWebOrder1"},
+            {"name": "facebook", "href": "https://www.linkedin.com/company/newweborder/"},
+            {"name": "linkedin", "href": "https://twitter.com/New_Web_Order"},
             {"name": "youtube", "href": "https://www.newweborder.co/"}
+          ],
+          "links": [
+            { "href": "/", "text": "Link One" },
+            { "href": "/", "text": "Link Two" },
+            { "href": "/", "text": "Link Three" },
+            { "href": "/", "text": "Link Four" }
           ]
 
 

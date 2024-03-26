@@ -14,31 +14,18 @@ const PriceCardGrid = () => {
         <h1 className='font-bold text-[1.875rem] text-center lg:text-4xl text-bg-100'>{data.priceCardsGrid.subheading}</h1>
         </div>
           <div className='absolute bottom-[0] w-full flex gap-1.5 lg:gap-6 overflow-x-auto mt-6 justify-start md:justify-center custom-margin no-scrollbar'>
-            <Button shape="filled" width={120}>
-              Honda
+          {data.priceCardsGrid.buttons.map((button, index) => (
+             <Button key={index} shape={index === 0 ? "filled" : "surface"} width={120}>
+              {button}
             </Button>
-            <Button shape="surface" width={120}>
-              Toyota 
-            </Button>
-            <Button shape="surface" width={120}>
-              Vego
-            </Button>
-            <Button shape="surface" width={120}>
-              KIA
-            </Button>
-            <Button shape="surface" width={120}>
-              BMW
-            </Button>
-            <Button shape="surface" width={120}>
-              Mercedes 
-            </Button>
+          ))}
           </div>
       </div>
 
       <div className="flex flex-wrap justify-center w-full gap-6">
         {data.priceCardsGrid.pricingOptions.map((option, index) => (
           <PriceCard
-            key={option.title}
+            key={index}
             title={option.title}
             price={option.price} 
             lowPrice={option.lowPrice} 

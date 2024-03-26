@@ -32,7 +32,7 @@ const Footer = () => {
                 {data.Footer.address.map((address, index) => (
                   <div key={index} className="flex flex-col items-center lg:items-start gap-2">
                     <h1 className='font-bold text-base text-bg-100'>{address.heading}</h1>
-                    <p className='font-medium text-sm text-bg-200'>{address.subheading}</p>
+                    <p className='font-medium text-sm text-bg-200 hover:text-primary-300 cursor-pointer'>{address.subheading}</p>
                   </div>
                 ))}
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
                 {data.Footer.contact.map((contact, index) => (
                   <div key={index} className='flex flex-col items-center lg:items-start gap-2'>
                   <h1 className='font-bold text-base text-bg-100'>{contact.heading}</h1>
-                  <p className='font-medium text-sm text-bg-200'>{contact.subheading}</p>
+                  <p className='font-medium text-sm text-bg-200 cursor-pointer hover:text-primary-300'>{contact.subheading}</p>
                 
                 </div>
                 ))}
@@ -54,57 +54,36 @@ const Footer = () => {
                 href={link.href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl hover:text-[#0E7490]"
+                className="text-2xl hover:text-primary-300"
               >
                 {link.name === "facebook" && <FaFacebook />}
                 {link.name === "instagram" && <FaInstagram />}
                 {link.name === "twitter" && <FaXTwitter />}
                 {link.name === "linkedin" && <FaLinkedin />}
-                {/* {link.name === 'youtube' && <FaYoutube />} */}
+                {link.name === 'youtube' && <FaYoutube />}
               </Link>
             ))}
           </div>
           
           </div>
-          <div className='links flex w-full flex-wrap gap-y-8 gap-x-20 justify-center lg:w-fit lg:justify-center'>
-              <div className='flex flex-col w-fit gap-3 items-center'>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-              </div>
-              <div className='flex flex-col w-fit gap-3 items-center'>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-              </div>
-              <div className='flex flex-col w-fit gap-3 items-center'>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-              </div>
-              <div className='flex flex-col w-fit gap-3 items-center'>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-                <Link href="/" className='font-semibold text-base text-bg-200'>{data.Footer.linktext}</Link>
-              </div>
-
-
-          </div>
+          <div className='links grid grid-cols-2 md:grid-cols-4 gap-20 justify-center lg:w-fit lg:justify-center'>
+  {data.Footer.links.map((link, index) => (
+    <div key={index} className='flex flex-col items-center'>
+      <Link href={link.href} className='font-semibold text-base text-bg-200'>{link.text}</Link>
+      <Link href={link.href} className='font-semibold text-base text-bg-200'>{link.text}</Link>
+      <Link href={link.href} className='font-semibold text-base text-bg-200'>{link.text}</Link>
+      <Link href={link.href} className='font-semibold text-base text-bg-200'>{link.text}</Link>
+      <Link href={link.href} className='font-semibold text-base text-bg-200'>{link.text}</Link>
+    </div>
+  ))}
+</div>
 
         </div>
         <div className='flex flex-col items-center w-full border-t border-bg-1000 lg:justify-between py-3 lg:flex-row gap-3 '>
-              <p className='font-normal text-sm text-bg-200'>{data.Footer.rights}</p>
+              <p className='font-normal text-sm text-bg-200 hover:text-primary-300 cursor-pointer'>{data.Footer.rights}</p>
               <div className='flex gap-6'>
-              <p className='font-normal text-sm text-bg-200'>{data.Footer.privacy}</p>
-              <p className='font-normal text-sm text-bg-200'>{data.Footer.terms}</p>
+              <p className='font-normal text-sm text-bg-200 hover:text-primary-300 cursor-pointer'>{data.Footer.privacy}</p>
+              <p className='font-normal text-sm text-bg-200 hover:text-primary-300 cursor-pointer'>{data.Footer.terms}</p>
               </div>
         </div>
       </div>

@@ -98,8 +98,8 @@ const Navbar = () => {
                     as="a"
                     href={item.href}
                     className={classNames(
-                      item.name ? "text-bg-200" : "text-primary-300",
-                      " p-3 px-3 py-2 text-sm font-medium tracking-[0.00438rem]",
+                      item.name ? "text-bg-200":
+                      " p-3 px-3 py-2 text-sm font-medium tracking-[0.00438rem] transition duration-300",
                     )}
                     aria-current={item.name ? "page" : undefined}
                   >
