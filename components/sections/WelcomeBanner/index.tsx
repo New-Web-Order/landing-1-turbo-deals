@@ -2,8 +2,8 @@
 import React from 'react';
 import Button from '@/components/widgets/Buttons';
 import NextImage from 'next/image';
-import BannerImage from '@/public/assets/images/welcomeBanner.webp';
-import CarTwo from '@/public/assets/images/WelcomeBannerTwo.webp';
+import BannerImage from '@/public/assets/images/mercedes-banner.webp';
+import CarTwo from '@/public/assets/images/mercedes-gclass.webp';
 import data from '@/dictionaries/en.json';
 import "@/styles/globals.css";
 
