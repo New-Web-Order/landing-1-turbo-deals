@@ -56,12 +56,9 @@ const Navbar = () => {
                     {data.navbar.links.map((item) => (
                       <a key={item.name} href={item.href}>
                         <p
-                          className={classNames(
-                            "px-4 text-[15px] font-semibold leading-[1.219rem]  ",
-                            item.name
-                              ? "text-bg-200"
-                              : "text-[#22D3EE] underline",
-                          )}
+                          className=
+                            "px-4 text-[15px] font-semibold text-bg-200 hover:text-primary-300"
+                     
                           aria-current={item.name ? "page" : undefined}
                         >
                           {item.name}
@@ -99,10 +96,10 @@ const Navbar = () => {
                     key={item.name}
                     as="a"
                     href={item.href}
-                    className={classNames(
-                      item.name ? "text-bg-200":
-                      " p-3 px-3 py-2 text-sm font-medium tracking-[0.00438rem] transition duration-300",
-                    )}
+                    className=
+                      "p-3 px-3 py-2 text-sm font-medium transition duration-300 "
+             
+                    
                     aria-current={item.name ? "page" : undefined}
                   >
                     {item.name}
