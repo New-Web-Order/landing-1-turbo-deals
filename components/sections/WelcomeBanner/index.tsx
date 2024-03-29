@@ -1,11 +1,11 @@
 "use client";
-import React from 'react'
+import React from 'react';
 import Button from '@/components/widgets/Buttons';
-import Image from 'next/image';
-import BannerImage from '@/public/assets/images/WelcomeBanner.webp';
-import BannerImageTwo from '@/public/assets/images/WelcomeBannerTwo.webp';
+import NextImage from 'next/image';
+import BannerImage from '@/public/assets/images/welcomeBanner.webp';
+import CarTwo from '@/public/assets/images/WelcomeBannerTwo.webp';
 import data from '@/dictionaries/en.json';
-import "@/styles/globals.css"
+import "@/styles/globals.css";
 
 const WelcomeBanner = () => {
   return (
@@ -29,13 +29,13 @@ const WelcomeBanner = () => {
             </a>
         </div>
         <div className='flex w-full h-[24.75rem] items-center justify-center Banner lg:hidden max-w-[720px] pr-5'>
-        <Image src={BannerImageTwo}
+        <NextImage src={CarTwo}
         alt='banner image'
         className='sm:max-w-[31.25rem]'
         />
         </div>
 
-        <Image src={BannerImage}
+        <NextImage src={BannerImage}
         alt='banner image'
         className='hidden lg:flex flex-1 max-w-[550px] xl:max-w-[650px] 2xl:w-[100%]'
         />

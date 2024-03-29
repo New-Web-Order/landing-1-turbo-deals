@@ -6,7 +6,9 @@ import Logo from "@/components/widgets/Logo";
 import { RiMenuFill, RiCloseLine } from "react-icons/ri";
 import { useRouter } from "next/navigation";
 import data from "@/dictionaries/en.json";
-import "@/styles/globals.css"
+import "@/styles/globals.css";
+
+
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(" ");
 };

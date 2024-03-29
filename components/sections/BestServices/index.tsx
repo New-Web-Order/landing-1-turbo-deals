@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Image from "next/image";
+import NextImage from "next/image";
 import ServiceCard from '@/components/widgets/ServiceCard';
 import data from "@/dictionaries/en.json";
 import ArrowOne from '@/public/assets/icons/arrowOne.svg';
@@ -48,7 +48,7 @@ const BestServices = () => {
               description={services.description}
                />
               {index < arrowImages.length && (
-                  <Image
+                  <NextImage
                   src={currentArrows[index]}
                    alt="right arrow" />
               )}

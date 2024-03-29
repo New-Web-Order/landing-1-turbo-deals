@@ -1,11 +1,11 @@
 "use client";
-import React from 'react'
-import Image from 'next/image'
+import React from 'react';
+import NextImage from 'next/image';
 import Link from 'next/link';
 import data from "@/dictionaries/en.json";
-import DownloadImage from "@/public/assets/images/downloadSection.webp"
-import AndroidSvg from '@/public/assets/icons/android.svg'
-import AppleSvg from '@/public/assets/icons/apple.svg'
+import DownloadImage from "@/public/assets/images/downloadSection.webp";
+import AndroidSvg from '@/public/assets/icons/android.svg';
+import AppleSvg from '@/public/assets/icons/apple.svg';
 
 const index = () => {
   return (
@@ -17,24 +17,24 @@ const index = () => {
             <div className='flex flex-col md:flex-row w-full gap-3 lg:w-fit'>
             <Link href="/">
               <button className='flex w-full cursor-pointer items-center justify-center rounded-md h-11 gap-1.5 bg-bg-1200 px-4 md:w-[8.188rem]'>
-              <Image src={AndroidSvg}
+              <NextImage src={AndroidSvg}
         alt='android'
               />
               <div className='flex flex-col w-fit items-start'>
                 <p className='font-semibold text-[0.563rem] text-bg-300'>GET IT ON</p>
-                <p className='font-normal text-[0.75rem] text-black'>Google play</p>
+                <p className='font-normal text-[0.72rem] text-black'>Google play</p>
               </div>
               </button>
             </Link>
             <Link href="/">
 
               <button className='flex w-full cursor-pointer items-center justify-center rounded-md h-11 gap-1.5 bg-bg-1200 px-4 md:w-[8.188rem]'>
-              <Image src={AppleSvg}
+              <NextImage src={AppleSvg}
         alt='apple'
                />
                 <div className='flex flex-col w-fit items-start'>
                 <p className='font-semibold text-[0.563rem] text-bg-300'>GET IT ON</p>
-                <p className='font-normal text-[0.75rem] text-black'>Apple Store</p>
+                <p className='font-normal text-[0.72rem] text-black'>Apple Store</p>
               </div>
               </button>
             </Link>
@@ -42,7 +42,7 @@ const index = () => {
             </div>
         </div>
         <div className='flex w-fit items-center flex-1 '>
-        <Image src={DownloadImage}
+        <NextImage src={DownloadImage}
         alt='banner image'
         className=' w-[100%] max-w-[25rem] lg:max-w-[100%]'
         />

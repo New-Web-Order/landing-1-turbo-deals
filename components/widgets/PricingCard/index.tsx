@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Button from '@/components/widgets/Buttons';
 import CardImage from '@/public/assets/images/cardmage.webp';
-import Image from 'next/image';
+import NextImage from 'next/image';
 
 interface Feature {
     text: string;
@@ -25,7 +25,7 @@ interface PricingCardProps {
   }) => {
     return (
         <div className='flex flex-col p-6 rounded-lg w-fit max-w-[25rem] gap-6 bg-[#F9F9F8]'>
-        <Image src={CardImage} alt="car image" className='h-[18.75rem] w-full'/>
+        <NextImage src={CardImage} alt="car image" className='h-[18.75rem] w-full'/>
         <div className='flex flex-col gap-y-5 w-full items-start'></div>
         <p className='text-xl font-bold text-bg-100'>{title}</p>
         <div className='flex w-fit gap-x-4 items-center'>

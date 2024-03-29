@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import Image from 'next/image';
+import NextImage from 'next/image';
 import logo from '@/public/assets/images/Car.svg';
 
 interface LogoProps {
@@ -8,7 +8,7 @@ interface LogoProps {
 
 const Logo: FC<LogoProps> = ({ className = '', ...props }) => (
   <div className={className} {...props}>
-    <Image
+    <NextImage
       src={logo}
       alt="Logo"
       // layout="responsive"

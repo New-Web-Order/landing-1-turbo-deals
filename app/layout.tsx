@@ -1,7 +1,6 @@
 import React, { PropsWithChildren } from "react";
 import Navbar from "@/components/widgets/Navbar";
 import Footer from "@/components/widgets/Footer";
-import Head from "next/head";
 import "@/styles/globals.css"
 import { K2D } from 'next/font/google'
 
