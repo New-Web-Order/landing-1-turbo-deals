@@ -18,7 +18,7 @@ const k2d = K2D({
 
 const meta = {
   title: "Turbo Deals",
-  description: "Turbo deals is a car dealership website",
+  description: "Turbo Deals is a car dealership website",
   icons: {
     icon: '/icon.png',
   },
