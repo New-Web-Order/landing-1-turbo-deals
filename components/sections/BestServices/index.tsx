@@ -37,8 +37,8 @@ const BestServices = () => {
     <div className='w-full max-w-screen-xl py-12 lg:py-16 px-3.5 lg:px-6 2xl:px-0'>
       <div className='flex flex-col items-space gap-9 lg:gap-16'>
         <div className='flex flex-col gap-3 lg:gap-4 w-full items-center'>
-          <p className='font-semibold text-base lg:text-lg text-bg-300'>{data.BestServices.heading}</p>
-          <h1 className='font-bold text-[1.875rem] text-center lg:text-4xl text-bg-100'>{data.BestServices.subheading}</h1>
+          <p className='font-semibold text-base lg:text-lg text-fg-solid'>{data.BestServices.heading}</p>
+          <h1 className='font-bold text-[1.875rem] text-center lg:text-4xl text-fg-text-contrast'>{data.BestServices.subheading}</h1>
         </div>
         <div className='w-full flex flex-col items-center lg:justify-between lg:flex-row gap-y-12 '>
         {data.BestServices.services.map((services, index) => (

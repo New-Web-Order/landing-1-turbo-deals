@@ -12,8 +12,8 @@ const WelcomeBanner = () => {
     <div className='w-full max-w-screen-xl py-12 lg:py-24 px-3.5 lg:px-6 2xl:px-0'>
         <div className='flex w-full items-center gap-9 lg:gap-20 justify-between flex-col-reverse lg:flex-row'>
         <div className='flex flex-1 flex-col justify-center gap-3 lg:gap-6 max-w-[45rem] lg:max-w-[36.5rem]'>
-            <h1 className='font-bold text-4xl lg:text-6xl text-bg-100 '>{data.heroSection.heading}</h1>
-            <p className='font-medium text-base lg:text-lg text-bg-200'>{data.heroSection.subheading}</p>
+            <h1 className='font-bold text-4xl lg:text-6xl text-fg-text-contrast '>{data.heroSection.heading}</h1>
+            <p className='font-medium text-base lg:text-lg text-fg-text'>{data.heroSection.subheading}</p>
             <a
               href="#"
               target="_blank"

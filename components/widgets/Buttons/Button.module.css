@@ -6,7 +6,7 @@
 
 /********** SURFACE **********/
 .root[data-shape="surface"] {
-    @apply border border-[#DAD9D6] text-[#63635E] bg-transparent px-5;
+    @apply border border-fg-border-hover text-fg-text bg-transparent px-5;
   }
   
   .root[data-shape="surface"]:hover {

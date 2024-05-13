@@ -19,8 +19,8 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <NextImage src={CardImage} alt="car image" className='h-[6.5rem] w-[4.5]'/>
         </div>
         <div className='flex flex-col gap-3.5 w-full items-center'>
-        <h1 className='font-bold text-xl text-bg-100'>{title}</h1>
-        <p className='font-normal text-lg text-bg-200 text-center'>{description}</p>
+        <h1 className='font-bold text-xl text-fg-text-contrast'>{title}</h1>
+        <p className='font-normal text-lg text-fg-text text-center'>{description}</p>
         </div>
         </div>
     );

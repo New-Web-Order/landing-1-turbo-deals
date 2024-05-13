@@ -17,8 +17,8 @@ const BestDeals = () => {
         </div>
         <div className='flex flex-1 flex-col gap-10 items-start w-full lg:max-w-[26.313rem]'>
             <div className='flex flex-col gap-6 w-full items-start'>
-                <p className='font-semibold text-base lg:text-lg text-bg-300'>{data.BestDeals.heading}</p>
-                <h1 className='font-bold text-[1.875rem]  lg:text-4xl text-bg-100'>{data.BestDeals.subheading}</h1>
+                <p className='font-semibold text-base lg:text-lg text-fg-solid'>{data.BestDeals.heading}</p>
+                <h1 className='font-bold text-[1.875rem]  lg:text-4xl text-fg-text-contrast'>{data.BestDeals.subheading}</h1>
             </div>
             <div className='flex flex-col gap-11 w-full'>
             {data.BestDeals.deals.map((deals, index) => (

@@ -19,7 +19,7 @@ const Navbar = () => {
 
   return (
     <>
-      <Disclosure as="nav" className="bg-transparent lg:flex lg:items-center lg:h-20 border-b border-[#F1F0EF] py-3 lg:py-0 ">
+      <Disclosure as="nav" className="bg-transparent lg:flex lg:items-center lg:h-20 border-b border-fg-border py-3 lg:py-0 ">
         {({ open }) => (
           <>
             <div className="mx-auto w-full max-w-7xl px-3.5 lg:px-6 2xl:px-0 ">
@@ -45,11 +45,11 @@ const Navbar = () => {
                 
                 <div
                   onClick={() => router.push("/")}
-                  className="flex flex-1 cursor-pointer items-center gap-x-1.5"
+                  className="flex flex-1 cursor-pointer gap-x-1.5 items-center"
                 >
                   
-                  <Logo className="h-[1.406rem] w-[1.406rem]" />
-                  <p className="font-bold text-2xl text-[#21201C] ">{data.navbar.logoText}</p>
+                  <Logo className="h-[1.406rem] w-[1.406rem] "/>
+                  <p className="font-bold text-2xl text-fg-text-contrast ">{data.navbar.logoText}</p>
                 </div>
                 <div className=" hidden flex-auto lg:ml-0 lg:block">
                   <div className="flex items-center justify-center gap-1.5">
@@ -57,7 +57,7 @@ const Navbar = () => {
                       <a key={item.name} href={item.href}>
                         <p
                           className=
-                            "px-4 text-[15px] font-semibold text-bg-200 hover:text-primary-300"
+                            "px-4 text-[15px] font-semibold text-fg-text hover:text-primary-300"
                      
                           aria-current={item.name ? "page" : undefined}
                         >
@@ -75,7 +75,7 @@ const Navbar = () => {
                       rel="noopener noreferrer"
                       className="flex items-center"
                     >
-                      <Button shape="surface" className="navbarbutton">
+                      <Button shape="surface" className="navbarbutton hover:text-primary-300">
                         Signup
                       </Button>
                       <Button shape="filled" >

@@ -3,6 +3,8 @@ import Navbar from "@/components/widgets/Navbar";
 import Footer from "@/components/widgets/Footer";
 import "@/styles/globals.css"
 import { K2D } from 'next/font/google'
+import ThemeProvider from '@/components/widgets/theme-provider';
+
 
 export const dynamic = "force-dynamic";
 
@@ -31,12 +33,14 @@ const RootLayout = async ({ children }: PropsWithChildren) => {
   return (
  <html lang="en" className={`${k2d.variable}`}>
 
-      <body>
-        <Navbar />
-        <main>
-        {children}
-        </main>
-        <Footer/>
+      <body className=" bg-bg-base">
+      <ThemeProvider>
+          <Navbar />
+          <main>
+            {children}
+          </main>
+          <Footer />
+        </ThemeProvider>
       </body>
     </html>
   );
